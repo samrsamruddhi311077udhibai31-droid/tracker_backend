@@ -1,0 +1,5 @@
+
+CREATE TABLE IF NOT EXISTS mst_calendar (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    c_date DATE NOT NULL
+); 
