@@ -45,11 +45,3 @@ WITH RECURSIVE DateRange AS (
     WHERE generated_date < '2030-12-31'
 )
 SELECT generated_date FROM DateRange;
--- Optional seed file.
--- The application creates users, habits and rewards through the REST API.
--- Keep spring.sql.init.mode=never in application.properties unless you
--- intentionally add SQL seed data here.
--- Optional seed file.
--- The application creates users, habits and rewards through the REST API.
--- Keep spring.sql.init.mode=never in application.properties unless you
--- intentionally add SQL seed data here.
